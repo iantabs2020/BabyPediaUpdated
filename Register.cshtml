@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Registration";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Registration</h1>
+    <p>Register</p>
+
+    <input type="button" onclick="location.href='@Url.Action("ParentRegistration", "Registration")'" value=" Register as Parent" />
+    <input type="button" onclick="location.href='@Url.Action("PediaRegistration", "Registration")'" value=" Register as Pediatrician" />
+</div>

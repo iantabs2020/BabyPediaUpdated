@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+<h1>@ViewData["Title"]</h1>
+<input type="submit" onclick="location.href='@Url.Action("OnlineConsultation", "Services")'" value=" Online Consultation" />
+<input type="submit" onclick="location.href='@Url.Action("Vaccination", "Services")'" value=" Vaccination" />
+<input type="submit" onclick="location.href='@Url.Action("Appointment", "Services")'" value=" Appointment Booking" />
+<input type="submit" onclick="location.href='@Url.Action("RecordTracking", "Services")'" value=" Record Tracking" />
+<p>Services Page</p>
+
