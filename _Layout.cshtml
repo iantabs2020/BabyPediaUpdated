@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BabyPedia.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto">
+    <style>
+        * {
+            font-family: roboto, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+        }
+    </style>
 </head>
-<body style="background-color:pink">
+<body style="background-color:white">
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a href="@Url.Action("Home", "Home")" class="navbar-brand">
-                <img src="Desktop/BabyPedia/Images/logo.png" title="title" alt="babypedia"/>
+                <img src="~/Images/Logo.png" title="title" alt="babypedia"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
